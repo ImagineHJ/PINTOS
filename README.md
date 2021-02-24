@@ -8,17 +8,17 @@ Each project has a document file that shows what I have done in each project(wri
   ## Project0
   The aim of this project is to practice and understand the data sturctures of PintOS. This project covers the use of list, hash table, and bitmap.
   
- 1. List
+1. List
 
 
   List in PintOS is a doubly linked list. It is different from the usual doubly linked list as it splits the pointers and the data. list_item structure embeds list_elem structure.
 
- 2. Hash Table
+2. Hash Table
 
 
   Hash table is a data structure that associates keys with values. 
   
- 3. Bitmap
+3. Bitmap
 
 
   Bitmap is an array which stores individual bits(boolean). Implementing beatmap can reduce the waste of memory space.
