@@ -11,7 +11,7 @@ Each project has a document file that shows what I have done in each project(wri
   1. List
 
 
-  List in PintOS is a doubly linked list. 
+  List in PintOS is a doubly linked list. It is different from the usual doubly linked list as it splits the pointers and the data. list_item structure embeds list_elem structure.
   ```c
   struct list_elem
   {
