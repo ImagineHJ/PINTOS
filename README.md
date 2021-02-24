@@ -6,6 +6,17 @@ C language is used in this project and I have referenced the Pintos Manual book 
 Each project has a document file that shows what I have done in each project(written in Korean).
 
   ## Project0
+  The aim of this project is to practice and understand the data sturctures of PintOS. This project covers the use of list, hash table, and bitmap.
+  
+  1. List
+  List in PintOS is a doubly linked list. 
+  ```c
+  struct list_elem
+  {
+    struct list_elem *prev;
+    struct list_elem *next;
+  }
+  ```
 
   ## Project1
 
