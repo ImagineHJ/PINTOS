@@ -5,6 +5,9 @@ The project is divided into 4 parts which are data structure, user program, file
 C language is used in this project and I have referenced the Pintos Manual book from Stanford Univ.
 Each project has a document file that shows what I have done in each project(written in Korean).
 
+Please refer to my personal blog to find out more information about the project.
+https://tvimagine.video.blog
+
   ## Project0
   The aim of this project is to practice and understand the data sturctures of PintOS. This project covers the use of list, hash table, and bitmap. The project is mostly about writing an interactive program that can check the funtionalities of list, hash table and bitmap in Pintos kernel.
   
