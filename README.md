@@ -10,28 +10,13 @@ https://tvimagine.video.blog
 
   ## Project0
   The aim of this project is to practice and understand the data sturctures of PintOS. This project covers the use of list, hash table, and bitmap. The project is mostly about writing an interactive program that can check the funtionalities of list, hash table and bitmap in Pintos kernel.
-  
-1. List
-
-
-  List in PintOS is a doubly linked list. It is different from the usual doubly linked list as it splits the pointers and the data. list_item structure embeds list_elem structure.
-  
- 
-
-2. Hash Table
-
-
-  Hash table is a data structure that associates keys with values. 
-  
-3. Bitmap
-
-
-  Bitmap is an array which stores individual bits(boolean). Implementing beatmap can reduce the waste of memory space.
- 
- 
  I have built an interactive program where the user command is parsed and the appropriate fuction is called according to the command. The program then produces the right output and shows it to the user.
 
   ## Project1
+  
+  The aim of this project is to make the PintOS be able to execute user programs properly. In the pre-project PintOS, system call, system call handler, argument passing, and user stack have not been implemented. Therefore, PintOS is not able to execute the user program due to lack of implementation.
+  I needed to understand how the user program works in code level flow and learn about the concept of virtual memory, and system call used in OS. I have implemented argument passing where I parse the user command and allocate it to memory according to 80x86 calling convention. I have implemented valid user memory access function to verify the validity of user-provided pointer and prevent user program to access invalid memory. I have implemented system call handler that handles system call by accessing the user stack. I have implemented exec(), exit(), write(), read() system call and additionally fibonacci()and max_of_four_int()
+  
 
   ## Project2
 
