@@ -25,6 +25,14 @@ https://tvimagine.video.blog
   
 
   ## Project2
-
+  
+  The aim of this project is to implement system calls about the file system. 
+  
+  
+  
+  I needed to understand the base file system of PintOS and its features. Also, I had to learn how file system call works in PintOS at the code level. The concept of file descriptor was significantly used in the project. I implemented create(), remove(), open(), close(), filesize(), read(), write(), seek(), tell() file system calls. I have used semaphore synchronization method to ensure that when one process is executing in its critical section no other proces can execute in its critical section.
+  
+  
+  
   ## Project3
 
